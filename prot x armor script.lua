@@ -1,8 +1,8 @@
 local OrionLib = loadstring(game:HttpGet('https://raw.githubusercontent.com/jensonhirst/Orion/main/source'))()
-local notifgui = loadstring(game:HttpGet("https://raw.githubusercontent.com/water5202/Notification-Library/refs/heads/main/Notify.lua"))()
+TheNotifier = loadstring(game:HttpGet("https://raw.githubusercontent.com/water5202/Notification-Library/refs/heads/main/Notify.lua"))()
+TheNotifier.WaterNotify("PROT X armor gui", "Loading...", 5)
 
-notifgui.WaterNotify("Prot x armour gui", "Loaded!", 5);
-local Window = OrionLib:MakeWindow({Name = "Prot x armour gui", HidePremium = false, SaveConfig = true, ConfigFolder = "Protxarmour", IntroText = "Prot x armour gui"});
+local Window = OrionLib:MakeWindow({Name = "PROT X ARMOR GUI", HidePremium = false, SaveConfig = true, ConfigFolder = "12312367", IntroText = "PROT X ARMOR GUI"})
 
 local Tab1 = Window:MakeTab({Name = "Auto Farm", Icon = "rbxassetid://4483345998", PremiumOnly = false});
 local Tab2 = Window:MakeTab({Name = "Extra", Icon = "rbxassetid://4483345998", PremiumOnly = false});
